@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Exchanges from './pages/Exchanges'
 import CoinDetails from './pages/CoinDetails'
 import Coins from './pages/Coins'
+import { Toaster } from 'react-hot-toast'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/coin/:id' element={<CoinDetails/>}/>
     </Routes>
     <Footer/>
+    <Toaster/>
    </Router>
   )
 }

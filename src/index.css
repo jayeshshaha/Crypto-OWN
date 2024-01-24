@@ -10,3 +10,11 @@ body{
   .active{
     color: #017BFE;
   }
+
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-lines: 2; 
+  }
